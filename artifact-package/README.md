@@ -1,0 +1,48 @@
+---
+type: artifact-package
+status: active
+source_note: "[[Raindrop 2.0 as Self-Healing Agent Observability]]"
+source_url: "https://x.com/benhylak/status/2062605176784187457"
+github_repo: "https://github.com/vinayclawagent-art/self-healing-agent-observability-kit"
+score: 9
+artifact_tracks: [prototype, infographic, skill]
+improvement_cadence: nightly
+last_improved: 2026-06-06
+tags: [artifact-package, agent-observability, self-healing-agents]
+---
+# Artifact Package: Self-Healing Agent Observability Kit
+
+Source: [[Raindrop 2.0 as Self-Healing Agent Observability]]
+
+## Why this matters
+Production agents need a failure cockpit before teams can trust autonomous fixes: traces, issue detectors, routing, replay, and repair decisions.
+
+## Artifact score
+9/10 — high artifact potential because it is repeatable, agent/product relevant, and can become a visible workflow tool.
+
+## Generated artifacts
+- Prototype: [[Artifacts/Prototypes/self-healing-agent-observability-kit/index.html|Agent Failure Triage Board]]
+- Prototype README: [[Artifacts/Prototypes/self-healing-agent-observability-kit/README.md]]
+- Infographic: [[Artifacts/Infographics/self-healing-agent-observability-kit/workflow.md]]
+- Skill draft: [[Artifacts/Skills/self-healing-agent-observability-kit/SKILL.md]]
+- Improvement loop: [[Self-Healing Agent Observability Kit Loop]]
+
+## Prototype brief
+A dependency-free static HTML builder that turns the X insight into a copyable implementation/checklist handoff.
+
+## Infographic brief
+Show the conversion from signal → artifact → real-world trial → improvement loop.
+
+## Skill candidate
+Candidate skill `agent-observability-triage` is drafted but not promoted yet; it needs at least one real workflow trial.
+
+## Improvement backlog
+- Run the prototype against a real VinClawLabs workflow.
+- Add a before/after evidence template after first use.
+- Convert repeated checklist fields into an installable Hermes skill only after validation.
+
+## GitHub repo
+https://github.com/vinayclawagent-art/self-healing-agent-observability-kit
+
+## Change log
+- 2026-06-06: Created package, prototype, repo mirror, and improvement loop from X source.
