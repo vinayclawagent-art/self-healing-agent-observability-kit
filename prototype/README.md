@@ -10,8 +10,9 @@ Open `index.html` in a browser. No build step required. Inputs persist in localS
 
 ## Evidence preset
 - [[Real Workflow Evidence Preset - Failure Triage]] — fill this during the next real VinClawLabs workflow trial to capture trigger signal, trace/log link, failure class, repair decision, outcome, and promotion decision.
+- [[Failure Triage Promotion Decision Card]] — use after the evidence preset is filled to choose exactly one outcome: promote skill draft, pilot-only, iterate card/prototype, or retire/hold.
 
 ## Next iteration ideas
-- Fill the failure-triage evidence preset during a real workflow; do not treat the prototype as validated until the evidence fields are complete.
+- Fill the failure-triage evidence preset during a real workflow, then complete the promotion decision card; do not treat the prototype as validated until both are complete.
 - Export markdown directly into Obsidian.
-- Add an evidence log after the first real trial.
+- Add an evidence log after the first real trial and link its decision outcome back to the loop.
