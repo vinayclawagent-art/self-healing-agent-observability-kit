@@ -15,9 +15,10 @@ Inspired by: https://x.com/benhylak/status/2062605176784187457
 Open `prototype/index.html` in a browser.
 
 ## Latest improvement
-- `prototype/Failure Triage Trial Packet.md` — operator packet for the next real failure-triage workflow.
+- `prototype/Failure Triage Post-Trial Debrief Template.md` — post-trial source-backed patch queue template before prototype or skill promotion wording changes.
 
 ## Roadmap
+- Fill the trial packet, promotion decision card, and post-trial debrief from one real workflow before adding a filled example or promotion claim.
 - Add filled examples from real workflows.
 - Add export helpers after first use.
 - Promote stable procedures into Hermes skills.

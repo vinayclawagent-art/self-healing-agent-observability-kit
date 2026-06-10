@@ -7,7 +7,7 @@ github_repo: "https://github.com/vinayclawagent-art/self-healing-agent-observabi
 score: 9
 artifact_tracks: [prototype, infographic, skill]
 improvement_cadence: nightly
-last_improved: 2026-06-09
+last_improved: 2026-06-10
 tags: [artifact-package, agent-observability, self-healing-agents]
 ---
 # Artifact Package: Self-Healing Agent Observability Kit
@@ -26,6 +26,7 @@ Production agents need a failure cockpit before teams can trust autonomous fixes
 - Evidence preset: [[Artifacts/Prototypes/self-healing-agent-observability-kit/Real Workflow Evidence Preset - Failure Triage|Real Workflow Evidence Preset - Failure Triage]]
 - Promotion decision card: [[Artifacts/Prototypes/self-healing-agent-observability-kit/Failure Triage Promotion Decision Card|Failure Triage Promotion Decision Card]]
 - Trial packet: [[Artifacts/Prototypes/self-healing-agent-observability-kit/Failure Triage Trial Packet|Failure Triage Trial Packet]]
+- Post-trial debrief template: [[Artifacts/Prototypes/self-healing-agent-observability-kit/Failure Triage Post-Trial Debrief Template|Failure Triage Post-Trial Debrief Template]]
 - Infographic: [[Artifacts/Infographics/self-healing-agent-observability-kit/workflow.md]]
 - Skill draft: [[Artifacts/Skills/self-healing-agent-observability-kit/SKILL.md]]
 - Improvement loop: [[Self-Healing Agent Observability Kit Loop]]
@@ -44,6 +45,7 @@ Candidate skill `agent-observability-triage` is drafted but not promoted yet; it
 - [x] Add a real-workflow evidence preset for failure triage before the first trial.
 - [x] Add a promotion decision card so future evidence maps to promote / pilot-only / iterate / retire.
 - [x] Add a single trial packet that sequences the board, evidence preset, and decision card for the next real failure-triage workflow.
+- [x] Add a post-trial debrief template that converts future failure evidence into a patch queue without claiming validation.
 - Add a before/after evidence log after first use.
 - Convert repeated checklist fields into an installable Hermes skill only after validation.
 
@@ -51,6 +53,7 @@ Candidate skill `agent-observability-triage` is drafted but not promoted yet; it
 https://github.com/vinayclawagent-art/self-healing-agent-observability-kit
 
 ## Change log
+- 2026-06-10: Added a Failure Triage Post-Trial Debrief Template so future real workflow evidence can become source-backed prototype/skill patches without fabricated validation.
 - 2026-06-09: Added a fillable Failure Triage Trial Packet that sequences the prototype board, evidence preset, and promotion decision card for the next real workflow; packet is ready, with validation still pending.
 - 2026-06-08: Added a fillable failure-triage promotion decision card so the next real workflow can turn evidence into an explicit promote / pilot-only / iterate / retire choice; card is ready, not validation proof.
 - 2026-06-07: Added a fillable real-workflow failure-triage evidence preset and linked it from the prototype README; preset is ready for the next trial, with no validation proof invented.
