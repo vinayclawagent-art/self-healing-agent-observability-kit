@@ -15,10 +15,10 @@ Inspired by: https://x.com/benhylak/status/2062605176784187457
 Open `prototype/index.html` in a browser.
 
 ## Latest improvement
-- `prototype/Failure Triage Post-Trial Debrief Template.md` — post-trial source-backed patch queue template before prototype or skill promotion wording changes.
+- `prototype/Failure Triage Evidence Quality Rubric.md` — blank proof-grading rubric for future failure-triage trials before prototype, README, or skill promotion wording changes.
 
 ## Roadmap
-- Fill the trial packet, promotion decision card, and post-trial debrief from one real workflow before adding a filled example or promotion claim.
+- Fill the trial packet, evidence preset, promotion decision card, post-trial debrief, and evidence quality rubric from one real workflow before adding a filled example or promotion claim.
 - Add filled examples from real workflows.
 - Add export helpers after first use.
 - Promote stable procedures into Hermes skills.
