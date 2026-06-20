@@ -7,7 +7,7 @@ github_repo: "https://github.com/vinayclawagent-art/self-healing-agent-observabi
 score: 9
 artifact_tracks: [prototype, infographic, skill]
 improvement_cadence: nightly
-last_improved: 2026-06-19
+last_improved: 2026-06-20
 tags: [artifact-package, agent-observability, self-healing-agents]
 ---
 # Artifact Package: Self-Healing Agent Observability Kit
@@ -28,6 +28,7 @@ Production agents need a failure cockpit before teams can trust autonomous fixes
 - Trial packet: [[Artifacts/Prototypes/self-healing-agent-observability-kit/Failure Triage Trial Packet|Failure Triage Trial Packet]]
 - Post-trial debrief template: [[Artifacts/Prototypes/self-healing-agent-observability-kit/Failure Triage Post-Trial Debrief Template|Failure Triage Post-Trial Debrief Template]]
 - Evidence quality rubric: [[Artifacts/Prototypes/self-healing-agent-observability-kit/Failure Triage Evidence Quality Rubric|Failure Triage Evidence Quality Rubric]]
+- Claim-to-patch ledger: [[Artifacts/Prototypes/self-healing-agent-observability-kit/Failure Triage Claim-to-Patch Ledger|Failure Triage Claim-to-Patch Ledger]]
 - Infographic: [[Artifacts/Infographics/self-healing-agent-observability-kit/workflow.md]]
 - Skill draft: [[Artifacts/Skills/self-healing-agent-observability-kit/SKILL.md]]
 - Improvement loop: [[Self-Healing Agent Observability Kit Loop]]
@@ -48,6 +49,7 @@ Candidate skill `agent-observability-triage` is drafted but not promoted yet; it
 - [x] Add a single trial packet that sequences the board, evidence preset, and decision card for the next real failure-triage workflow.
 - [x] Add a post-trial debrief template that converts future failure evidence into a patch queue without claiming validation.
 - [x] Add an evidence quality rubric so future failure-triage proof is graded before README/prototype/skill claims change.
+- [x] Add a claim-to-patch ledger so future self-healing claims become scoped, evidence-linked README/prototype/skill patch decisions.
 - Add a before/after evidence log after first use.
 - Convert repeated checklist fields into an installable Hermes skill only after validation.
 
@@ -55,6 +57,7 @@ Candidate skill `agent-observability-triage` is drafted but not promoted yet; it
 https://github.com/vinayclawagent-art/self-healing-agent-observability-kit
 
 ## Change log
+- 2026-06-20: Added a Failure Triage Claim-to-Patch Ledger to translate future rubric-scored workflow evidence into scoped README/prototype/skill patch decisions; ledger is template-ready, not validation proof.
 - 2026-06-19: Added a Failure Triage Evidence Quality Rubric to grade future real workflow proof before any promotion or wording changes; rubric is template-ready, not validation proof.
 - 2026-06-10: Added a Failure Triage Post-Trial Debrief Template so future real workflow evidence can become source-backed prototype/skill patches without fabricated validation.
 - 2026-06-09: Added a fillable Failure Triage Trial Packet that sequences the prototype board, evidence preset, and promotion decision card for the next real workflow; packet is ready, with validation still pending.

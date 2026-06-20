@@ -15,10 +15,10 @@ Inspired by: https://x.com/benhylak/status/2062605176784187457
 Open `prototype/index.html` in a browser.
 
 ## Latest improvement
-- `prototype/Failure Triage Evidence Quality Rubric.md` — blank proof-grading rubric for future failure-triage trials before prototype, README, or skill promotion wording changes.
+- `prototype/Failure Triage Claim-to-Patch Ledger.md` — blank claim gate that turns future rubric-scored failure-triage evidence into scoped README/prototype/skill patch decisions.
 
 ## Roadmap
-- Fill the trial packet, evidence preset, promotion decision card, post-trial debrief, and evidence quality rubric from one real workflow before adding a filled example or promotion claim.
+- Fill the trial packet, evidence preset, promotion decision card, post-trial debrief, evidence quality rubric, and claim-to-patch ledger from one real workflow before adding a filled example or promotion claim.
 - Add filled examples from real workflows.
 - Add export helpers after first use.
 - Promote stable procedures into Hermes skills.

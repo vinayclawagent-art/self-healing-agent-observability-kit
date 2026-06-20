@@ -5,8 +5,8 @@ package: "[[Self-Healing Agent Observability Kit]]"
 source_note: "[[Raindrop 2.0 as Self-Healing Agent Observability]]"
 github_repo: "https://github.com/vinayclawagent-art/self-healing-agent-observability-kit"
 cadence: nightly
-last_improved: 2026-06-19
-next_focus: "Run the next real failure-triage workflow, fill the trial packet/evidence preset/promotion card/debrief, then grade the proof with [[Artifacts/Prototypes/self-healing-agent-observability-kit/Failure Triage Evidence Quality Rubric]] before patching prototype or skill wording."
+last_improved: 2026-06-20
+next_focus: "Run the next real failure-triage workflow, fill the trial packet/evidence preset/promotion card/debrief, grade the proof with [[Artifacts/Prototypes/self-healing-agent-observability-kit/Failure Triage Evidence Quality Rubric]], then use [[Artifacts/Prototypes/self-healing-agent-observability-kit/Failure Triage Claim-to-Patch Ledger]] before patching prototype or skill wording."
 tags: [improvement-loop, x-artifact-factory]
 ---
 # Self-Healing Agent Observability Kit Loop
@@ -15,6 +15,7 @@ Package: [[Self-Healing Agent Observability Kit]]
 GitHub: https://github.com/vinayclawagent-art/self-healing-agent-observability-kit
 
 ## Current improvement
+- 2026-06-20: Added [[Artifacts/Prototypes/self-healing-agent-observability-kit/Failure Triage Claim-to-Patch Ledger|Failure Triage Claim-to-Patch Ledger]] so future self-healing or skill-promotion wording changes are backed by proof links, rubric notes, and explicit patch targets. Ledger is ready; no validation proof was invented.
 - 2026-06-19: Added [[Artifacts/Prototypes/self-healing-agent-observability-kit/Failure Triage Evidence Quality Rubric|Failure Triage Evidence Quality Rubric]] so the next real workflow proof is graded before any promotion, README, prototype, or skill-draft wording changes. Rubric is ready; no validation proof was invented.
 - 2026-06-10: Added [[Artifacts/Prototypes/self-healing-agent-observability-kit/Failure Triage Post-Trial Debrief Template|Failure Triage Post-Trial Debrief Template]] so future real failure evidence turns into source-backed README/prototype/skill patch queue items before any promotion claim. Template is ready; no validation proof was invented.
 - 2026-06-09: Added [[Artifacts/Prototypes/self-healing-agent-observability-kit/Failure Triage Trial Packet|Failure Triage Trial Packet]] to sequence the board, evidence preset, and decision card for the next real workflow. Prepared only; no validation proof claimed.
@@ -23,7 +24,7 @@ GitHub: https://github.com/vinayclawagent-art/self-healing-agent-observability-k
 - 2026-06-06: Created first-pass prototype and repo mirror.
 
 ## Next focus
-Run the prototype against a real VinClawLabs workflow, fill the trial packet/evidence preset/promotion decision card/post-trial debrief, then score the Failure Triage Evidence Quality Rubric before adding any filled example or deciding whether the skill draft is reusable enough to promote.
+Run the prototype against a real VinClawLabs workflow, fill the trial packet/evidence preset/promotion decision card/post-trial debrief, score the Failure Triage Evidence Quality Rubric, then complete the Failure Triage Claim-to-Patch Ledger before adding any filled example or deciding whether the skill draft is reusable enough to promote.
 
 ## Backlog
 - [x] Add one source-specific evidence preset.
@@ -32,4 +33,5 @@ Run the prototype against a real VinClawLabs workflow, fill the trial packet/evi
 - [x] Add a trial packet that sequences board output, source evidence, and promotion decision before the first real trial.
 - [x] Add a post-trial debrief template that converts future failure-triage evidence into concrete patch decisions.
 - [x] Add an evidence quality rubric that grades source-backed proof before promotion or wording changes.
+- [x] Add a claim-to-patch ledger that ties future self-healing claims to proof links, rubric notes, allowed wording, and patch targets.
 - Decide whether the skill draft is reusable enough to promote.
